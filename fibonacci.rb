@@ -5,7 +5,7 @@ def fib(n)
   arr << 1 if n >= 2
   if n > 2
     (n-2).times do |i|
-      arr << (arr[i] + arr[i+1])
+      arr << arr[i] + arr[i+1]
     end
   end
   arr
